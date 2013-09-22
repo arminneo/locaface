@@ -1,0 +1,151 @@
+.signup{
+    background-color: #33B5E5;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.signuplogo{
+ width: 100px;
+ height: 28.5px;
+ background-image: url(../images/locaface/logo.png);
+ display: inline-block;
+ font: left;
+
+ background-size: 100%;
+}
+.signupActInd{
+    display: inline;
+    float: right;
+
+}
+.signupCheckbox{
+    width: 20px;
+    height: 20px;
+}
+.signupButtonbottom{
+    background-color: #FFFFFF;
+    color: #33B5E5;
+    text-align: center;
+    height: 30px;
+    margin-top: 7px;
+    padding-top: 7px;
+    display: inline-block;
+    font-size: 1em;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 49%;
+}
+.signupButtonbottom:active{
+    background-color:#C6EAF8;
+}
+
+.signupInputField{
+    border-radius: 0px;
+    border: none;
+    color: #33B5E5;
+    left: 4px;
+    top:4px;
+    text-emphasis-color: red;
+}
+
+.sigupField{
+    display: block;
+    position: relative;
+    padding: 4px;
+}
+.sigupField p{
+
+    position: absolute;
+    font-size: 0.7em;
+    color: #efefef;
+    top : 10px;
+    right: 4px;
+}
+.agreementsignup{
+    position: absolute;
+    font-size: 0.7em;
+    color: #efefef;
+    top : 20px;
+    right: 4px;
+}
+.agreementsignuplbl{
+    font-size: 0.8em;
+    color: #efefef;
+    display: inline-block;
+}
+.agreementsignuplblul{
+    display: inline-block;
+    font-size: 0.8em;
+    color: #efefef;
+    text-decoration: underline;
+}
+.loginPassword{
+    border-radius: 0px;
+    border: none;
+    float: right;
+    color: #33B5E5;
+}
+.signupInputs{
+    position: relative;
+    margin-top: 5px;
+    display: block;
+}
+.loginButton:active{
+    background-color:#C6EAF8;
+}
+
+.loginInputContainerUserName{
+     background-color: #ffffff;
+     width: 100%;
+     height: 34px;
+     border-bottom: 3px solid  #33B5E5;
+    background-image: url(../images/locaface/profile.png);
+    background-size: 10%;
+    background-position: left;
+    background-repeat: no-repeat;
+ }
+.loginInputContainerPassword{
+    background-color: #ffffff;
+    width: 100%;
+    height: 34px;
+    border-bottom: 3px solid  #33B5E5;
+    background-image: url(../images/locaface/lock.png);
+    background-size: 10%;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.loginButton{
+ background-color: #FFFFFF;
+ color: #33B5E5;
+ text-align: center;
+ height: 32px;
+ margin-top: 20px;
+ padding-top: 7px;
+ display: block;
+ font-size: 1.2em;
+}
+.loginNote{
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size :.7em;
+    line-height: 140%;
+}
+.signupButton{
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+.lostpassword{
+    margin-top: 5px;
+    color: #ffffff;
+    font-size :.7em;
+    text-decoration: underline;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(51, 181, 229, 0.5);
+}

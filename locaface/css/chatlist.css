@@ -1,0 +1,68 @@
+.chatlist{
+    padding-top:2px;
+    background: #ffffff;
+    width: 100%;
+    position: relative;
+}
+.chatlistItem{
+   margin-left:4px;
+   margin-right:4px;
+
+    padding-top: 6px;
+    padding-bottom: 4px;
+   border-bottom: 1px solid #eaeaea;
+   position: relative;
+    opacity:1;
+    -webkit-transition: opacity 0.3s;
+    transition:opacity 0.3s;
+}
+
+.ChatListItemArea:active{
+    background-color: rgba(51, 181, 229, 0.5);
+    transition:background-color 0.2s;
+    -webkit-transition:background-color 0.2s;
+    -webkit-transition-delay:0.1s;
+    transition-delay:0.1s;/* Safari */
+}
+.chatlistImage{
+
+}
+.chatlistimg{
+  border-radius: 3px;
+  width: 60px;
+  height: 60px;
+}
+.chatlistOwner{
+    position: absolute;
+ top:4px;
+ left:70px;
+}
+.chatlistTime{
+    position: absolute;
+ right: 4px;
+ top:7px;
+    font-size: .6em;
+    color: #33B5E5;
+}
+.chatlistText{
+    position: absolute;
+    top:40px;
+    left:70px;
+    font-size: .65em;
+    color: #808080;
+}
+.chatlistButton{
+
+
+    position: absolute;
+    top:25px;
+    right:4px;
+    width :60px; /* 60px; */
+
+}
+.chatlistDeleteButton{
+
+    transition:width 0.3s;
+    -webkit-transition:width 0.3s; /* Safari */
+    width :0px;
+}

@@ -1,0 +1,99 @@
+.detail{
+
+ margin: 7px;
+ background-color: #ffffff;
+}
+.detailContainer{
+    padding: 4px;
+}
+.detailImage{
+
+ width: 100%;
+}
+.detailBoxtop{
+  display: block;
+  margin-top: 10px;
+  height: 35px;
+}
+.detailOwner{
+
+  padding-left: 7px;
+  float: left;
+  font-size: 1em;
+    color: #33B5E5;
+  padding-top: 17px;
+    text-decoration: underline;
+}
+.detailLike{
+  float: right;
+  background-color: #33B5E5;
+  height: 32px;
+  padding-right: 3px;
+    padding-left: 3px;
+    padding-top: 1px;
+    padding-top: 1px;
+    border-radius:3px;
+}
+.detailLine{
+ margin-top: 3px !important;
+ margin-bottom: 0px !important;
+ width: 96%;
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.detailPostDetail{
+    display: block;
+    margin-top: 8px;
+    font-size: .75em;
+    color: #808080;
+    line-height: 140%;
+    padding-left: 7px;
+
+}
+.comments{
+ margin-top:7px;
+}
+.comment{
+    border-top:1px solid #eeeeee;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    position: relative;
+}
+.commentOwner{
+    font-size: .7em;
+    color: #525252;
+    margin-bottom: 4px;
+    text-decoration: underline;
+}
+.commentText{
+    font-size: .64em;
+    color: #808080;
+}
+.commentTextBox{
+    margin-top : 7px;
+    float: left;
+    font-size: .7em;
+    border-radius: 0px;
+    width: 75%;
+}
+.commentButton{
+    margin-top : 7px;
+    width: 20%;
+    height: 22px;
+    float: right;
+}
+.commentDeleteButton{
+    float: right;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: block;
+    top: 2px;
+    right:2px;
+    opacity: 0.5;
+}

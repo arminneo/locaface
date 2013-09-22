@@ -1,0 +1,92 @@
+.profile{
+ margin: 4px;
+ background-color: #ffffff;
+ padding: 4px;
+ height: 96%;
+}
+.profileBanner{
+    margin: 3px;
+    margin-bottom: 7px;
+    height: 92px;
+}
+.profileImage{
+float: left;
+
+
+}
+.profileImg{
+ width: 80px;
+ height: 80px;
+    background-color: #33B5E5;
+    border-radius:3px;
+    padding: 4px;
+}
+.profileBannerRightPanel{
+   float: left;
+   margin-left: 14px;
+}
+.profileNickName{
+  margin-top: 7px;
+}
+.profileEdit{
+    margin-top: 30px;
+  width: 80px;
+  font-size: 15px !important;
+    color: #33B5E5;
+    visibility: hidden;
+}
+.profileLine{
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+    width: 96%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.profileInformation{
+
+}
+.profileInformationField{
+
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.profileInformationName{
+  display: inline;
+  font-size: .8em;
+    color: #525252;
+}
+.profileInformationData{
+    display: inline;
+    font-size: .75em;
+    color: #808080;
+}
+.profileFooter
+{
+
+    position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 50px;
+   right: 0;
+    margin-left:70px;
+}
+.profileMessageButtonImg{
+    width:30px;
+    height: 30px;
+
+}
+.profileMessageButtonP{
+  vertical-align: middle;
+
+}
+.profileMessageButton{
+    width : 50px;
+    float:right;
+    margin-right: 10px;
+}
+

@@ -1,0 +1,63 @@
+.posteditor{
+    margin :4px;
+}
+.posteditorImage{
+    background-repeat: no-repeat;
+    /*background-image:  url(../a.jpg);*/
+
+
+    background-position: 0px 0px;
+}
+.profileeditorImage{
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+  width: 160px;
+  height: 160px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+
+}
+.posteditorImageContainer{
+
+    padding: 3px;
+    background-color: #ffffff;
+}
+.profileeditorImageContainer{
+
+    padding: 3px;
+    background-color: rgba(51, 181, 229, 0.41);
+}
+.posteditorTitle{
+    display: block;
+    width : 100%;
+    font-size: .7em;
+    color: #525252;
+    margin-bottom: 4px;
+
+}
+.posteditorTip{
+    display: block;
+    width : 100%;
+    font-size: .64em;
+    color: #808080;
+    margin-bottom: 4px;
+}
+.posteditorPostTitlePart{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.postEditorTitleText{
+    margin-top : 7px;
+    font-size: .7em;
+    border-radius: 0px;
+    width: 95%;
+}
+.postEditorBodyText{
+    margin-top : 7px;
+    font-size: .7em;
+    border-radius: 0px;
+    width: 98%;
+}
+

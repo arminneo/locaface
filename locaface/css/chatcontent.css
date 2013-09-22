@@ -1,0 +1,70 @@
+.chatcontent{
+ padding-top:10px ;
+ padding-bottom: 35px;
+}
+.chatcontenItemSent{
+ position: relative;
+ padding: 8px;
+ margin:8px;
+ background-color: rgba(51, 181, 229, 0.2);
+ border-radius: 3px;
+ width: 80%;
+ float: right;
+}
+.chatcontenItemReceived{
+    position: relative;
+    padding: 8px;
+    margin:8px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    width: 80%;
+    float: left;
+}
+.chatcontentOwner{
+
+    font-size: .9em;
+    color: #323232;
+    margin-bottom: 7px;
+}
+.chatcontentTime{
+    position: absolute;
+    top:8px;
+    right:8px;
+    font-size: .6em;
+    color: #33B5E5;
+}
+.chatcontentText{
+
+    font-size: .7em;
+    color: #707070;
+
+}
+.chatControl{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #33b5e5;
+
+}
+.messageTextBox{
+    margin-top : 7px;
+    float: left;
+    font-size: .7em;
+    border-radius: 0px;
+    width: 75%;
+    margin-left : 4px;
+    margin-bottom: 4px;
+}
+.messageButton{
+    margin-top : 7px;
+    width: 18%;
+    height: 23px;
+    float: right;
+    background-color: #FFFFFF;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+

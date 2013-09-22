@@ -1,0 +1,34 @@
+#detail .dtlname {
+    font-weight: bold;
+    color: #000066;
+}
+
+#postbody {
+    margin: 14px 0 14px 0;
+}
+#postbody h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#detail #commands{
+    margin: 0 0 1.5em 0;
+    text-align: right;
+}
+
+#comments {
+    padding: 0;
+    margin: 0;
+}
+
+#comments li {
+    margin: 0 0 0.5em 24px;
+    list-style:none;
+}
+#comments li:first-child {
+    list-style-image: url('../images/pin.png');
+    list-style-position:outside;
+}
+#dtltitle {
+    font-weight: bold;
+}

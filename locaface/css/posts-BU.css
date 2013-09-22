@@ -1,0 +1,106 @@
+
+.post {
+    transform: translate3d(0,0,0);
+    height: 100px;
+    /*border: 3px blue solid;*/
+    margin-bottom: 16px;
+    float:left;
+    position:relative; /* important(so we can absolutely position the description div */
+    width: 100%;
+    /*box-shadow: 2px 2px 4px #bbbbbb;*/
+    /*TODO: Remove box-shadow and replace some f*****g shadow css code instead!*/
+}
+.pbar {
+    font-size: 12pt;
+    position:absolute; /* absolute position (so we can position it where we want)*/
+    bottom:0px; /* position will be on bottom */
+    left:0px;
+    width:100%;
+    height: 50px;
+}
+
+.psinfo {
+    width: 100%;
+    height: 100%;
+    border-collapse:collapse;
+    font-size: 11pt;
+}
+.psinfo td {
+    padding: 3px;
+    font-size: 0.9em;
+}
+.psinfo td:last-child {
+    width: 40px;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 10px;
+/*
+    background-position: 3px center;
+    background-repeat:no-repeat;
+*/
+}
+.psinfo h3 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 1.1em;
+    font-family: inherit;
+}
+
+.psinfo p {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 1em;
+    font-family:inherit;
+}
+.psinfo td:first-child {
+    vertical-align: top;
+}
+.psdistance {
+    /*background-image:url('../images/pin.png');*/
+}
+.pspoints {
+    /*background-image:url('../images/points.png');*/
+}
+/* Text */
+
+.ptext {
+    height: 60px;
+    background-color: #eee;
+}
+
+.ptext:nth-child(odd){
+    background-color: #ccc !important;/*#fafafa;*/
+}
+
+
+.ptext .pbar {
+    height: 100%;
+}
+
+/* Image */
+
+.ppic {
+    height: 200px;
+}
+.ppic img,.imgph {
+    width: 100%;
+
+    margin:  0;
+    padding: 0;
+    bottom: 0px;
+    height: 100%;
+    /*border: 2px red solid;*/
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.ppic .pbar {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: 0;
+    color: #000;
+    z-index: 1;
+}
